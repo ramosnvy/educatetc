@@ -27,42 +27,95 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg fixed-top bg-primary-color navbar-login" id="navbar">
+<nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
     <div class="container py-3">
-        <a href="index.html" class="navbar-brand third-color">
+        <a href="dashbord.html" class="navbar-brand third-color">
             <img src="imgs/logo.png" alt="logo">
             <span></span>
         </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-items"
+                aria-controls="navbar-items"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
 
+            <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="novidades.html" class="nav-link third-color">Novidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cursos.html" class="nav-link third-color">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="suporte.html" class="nav-link third-color" >Suporte</a>
+                </li>
+                <li class="nav-item">
+                    <a href="meu_perfil.html" class="nav-link third-color" >Meu perfil</a>
+                </li>
 
+                <li>
+                    <a href="index.html" class="btn mb-2 mb-md-0 btn-block btn-round bg-dark-color btn-lg btn-text" role="button">Sair</a>
+                    </button>
+
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
 
-<div class="row">
-    <div class="col-12 offset-md-3">
-    <div class="col-3 form-login">
-        <h2> Se você for um de nossos alunos...</h2>
 
-        <div class="form-outline mb-4">
-            <label class="form-label" for="loginName">Email</label>
-            <input type="email" id="loginName" class="form-control" placeholder="Email" />
+
+<h1 style="font-weight: bolder; margin-top: 2em; margin-bottom: 2em; ">Aqui estão todos os cursos disponíveis no momento.</h1>
+<div class="container">
+    <div class="row campo-teste-espacamento">
+        <div class="col-4 campo-teste ">
+            <h3>Desenvolvimento de Sistemas</h3>
+        </div>
+        <div class="col-4 desc ">
+            <ul class="list-unstyled">
+                <li>
+                    Formação Desenvolvimento de Jogos com Unity
+                </li>
+                <li>
+                    Formação Java
+                </li>
+                <li>
+                    Formação Python
+                </li>
+
 
         </div>
-        <div class="form-outline mb-4">
-            <label class="form-label" for="loginPassword">Senha </label>
-            <input type="password" id="loginPassword" class="form-control" placeholder="Senha"/>
 
-        </div>
-        <p>Esqueci minha senha</p>
 
-        
-        <a href="dashbord.html" class="btn mb-2 mb-md-0 btn-block btn-round bg-dark-color btn-lg btn-text" role="button">Entrar</a>
     </div>
+    <div class="row campo-teste-espacamento">
+        <div style="background-color: #88ff00" class="col-4 campo-teste">
+            <h3>Administração</h3>
+        </div>
+        <div class="col-4 desc ">
+            <ul class="list-unstyled">
+                <li>
+                    Administração de Empresas
+                </li>
+                <li>
+                    Administração Conceitos
+                </li>
 
 
+
+        </div>
+
+
+    </div>
 </div>
-
 
 
 
@@ -106,7 +159,7 @@
             <!--FOOTER BOTTOM-->
             <div class="col-12" id="footer-bottom">
                 <div class="row justify-content-between">
-                    <div class="col-12 col-md-3">
+                    <div class="col-1   2 col-md-3">
                         <p class="secondary-color">EDUCATEC &copy; 2022 </p>
                     </div>
                     <div class="col-12 col-md-3">
