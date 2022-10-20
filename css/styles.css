@@ -240,6 +240,7 @@ body {
 
 .card-title{
     font-weight: bolder;
+
 }
 
 .card{
@@ -283,8 +284,8 @@ body {
 
 .faq {
     text-align: center;
-    margin-top: 20em;
-    margin-bottom: 20em;
+    margin-top: 5em;
+    margin-bottom: 10em;
 }
 
 @media(min-width: 768px){
@@ -356,4 +357,25 @@ body {
     font-weight: bold;
 
 
+}
+
+.profile{
+    margin-top: 5em;
+
+
+}
+
+.profile-layout{
+    margin-top: 8em;
+
+
+}
+
+.avatar-pic{
+    width: 200px;
+    height: 120px;
+}
+
+.test{
+    margin: 0;
 }
